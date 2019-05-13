@@ -209,6 +209,26 @@ var CURRENCIES = [{
     name: 'raiblocks',
     symbol: 'xrb',
     validator: NANOValidator,
+},{
+    name: 'Ion',
+    symbol: 'ion',
+    addressTypes: {prod: ['67'], testnet: []},
+    validator: BTCValidator
+},{
+    name: 'Wagerr',
+    symbol: 'wgr',
+    addressTypes: {prod: ['49'], testnet: []},
+    validator: BTCValidator
+},{
+    name: 'PIVX',
+    symbol: 'pivx',
+    addressTypes: {prod: ['1e'], testnet: []},
+    validator: BTCValidator
+},{
+    name: 'Observer',
+    symbol: 'obsr',
+    addressTypes: {prod: ['73'], testnet: []},
+    validator: BTCValidator
 }];
 
 
